@@ -1,0 +1,11 @@
+C:\Users\hansenn\source\repos\AdventureGame\AdventureGame\bin\Debug\netcoreapp2.1\AdventureGame.deps.json
+C:\Users\hansenn\source\repos\AdventureGame\AdventureGame\bin\Debug\netcoreapp2.1\AdventureGame.runtimeconfig.json
+C:\Users\hansenn\source\repos\AdventureGame\AdventureGame\bin\Debug\netcoreapp2.1\AdventureGame.runtimeconfig.dev.json
+C:\Users\hansenn\source\repos\AdventureGame\AdventureGame\bin\Debug\netcoreapp2.1\AdventureGame.dll
+C:\Users\hansenn\source\repos\AdventureGame\AdventureGame\bin\Debug\netcoreapp2.1\AdventureGame.pdb
+C:\Users\hansenn\source\repos\AdventureGame\AdventureGame\obj\Debug\netcoreapp2.1\AdventureGame.csprojAssemblyReference.cache
+C:\Users\hansenn\source\repos\AdventureGame\AdventureGame\obj\Debug\netcoreapp2.1\AdventureGame.csproj.CoreCompileInputs.cache
+C:\Users\hansenn\source\repos\AdventureGame\AdventureGame\obj\Debug\netcoreapp2.1\AdventureGame.AssemblyInfoInputs.cache
+C:\Users\hansenn\source\repos\AdventureGame\AdventureGame\obj\Debug\netcoreapp2.1\AdventureGame.AssemblyInfo.cs
+C:\Users\hansenn\source\repos\AdventureGame\AdventureGame\obj\Debug\netcoreapp2.1\AdventureGame.dll
+C:\Users\hansenn\source\repos\AdventureGame\AdventureGame\obj\Debug\netcoreapp2.1\AdventureGame.pdb

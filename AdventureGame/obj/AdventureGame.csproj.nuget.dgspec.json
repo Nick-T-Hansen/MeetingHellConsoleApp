@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hansenn\\source\\repos\\AdventureGame\\AdventureGame\\AdventureGame.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hansenn\\source\\repos\\AdventureGame\\AdventureGame\\AdventureGame.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hansenn\\source\\repos\\AdventureGame\\AdventureGame\\AdventureGame.csproj",
+        "projectName": "AdventureGame",
+        "projectPath": "C:\\Users\\hansenn\\source\\repos\\AdventureGame\\AdventureGame\\AdventureGame.csproj",
+        "packagesPath": "C:\\Users\\hansenn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hansenn\\source\\repos\\AdventureGame\\AdventureGame\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hansenn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ingramindustries.jfrog.io/ingramindustries/api/nuget/v3/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
