@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hansenn\\source\\repos\\AdventureGame\\AdventureGame\\AdventureGame.csproj",
+      "projectUniqueName": "C:\\Users\\hansenn\\IngramRepos\\AdventureGame\\AdventureGame\\AdventureGame.csproj",
       "projectName": "AdventureGame",
-      "projectPath": "C:\\Users\\hansenn\\source\\repos\\AdventureGame\\AdventureGame\\AdventureGame.csproj",
+      "projectPath": "C:\\Users\\hansenn\\IngramRepos\\AdventureGame\\AdventureGame\\AdventureGame.csproj",
       "packagesPath": "C:\\Users\\hansenn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hansenn\\source\\repos\\AdventureGame\\AdventureGame\\obj\\",
+      "outputPath": "C:\\Users\\hansenn\\IngramRepos\\AdventureGame\\AdventureGame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
