@@ -16,8 +16,6 @@ namespace AdventureGame
         {
             Console.WriteLine("Please tell me your Adventurer's name.");
             Player.CharacterName = Console.ReadLine();
-            Player.LevelOneCompleted = false; //initialize
-            Player.LevelFailed = false; //initializes
         }
 
         //write line options which include color choices
@@ -45,10 +43,14 @@ namespace AdventureGame
         }
         public static void GameOver()
         {
-            if (Player.LevelFailed == true)
+            if (Player.LevelFailed)
             {
                 Dialog($"You lose, {Player.CharacterName}. Please hit any key to exit.", "red");
-                Console.ReadKey();
+            }
+
+            else if (Player.BossFightCompleted && !Player.LevelFailed )
+            {
+                Dialog($"Congratulations, you have ended pointless meetings forever. You must tell everyone by now writing a memo and distributing it via fax. Please hit any key to exit.", "red");
             }
         }
     }

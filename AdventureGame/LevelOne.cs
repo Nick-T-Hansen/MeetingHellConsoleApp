@@ -27,9 +27,9 @@ namespace AdventureGame
             Game.Dialog("You have acquired \"Coffee Cup\"", "red");
             Player.CoffeeCup = true;
 
-            Console.WriteLine(""); // create whitespace
+            Console.WriteLine("");
             UserDecision1();
-            while (Player.ValidResponse == false)
+            while (!Player.ValidResponse)
             {
                 var DialogResponse = Console.ReadLine();
                 UserResponse1(DialogResponse);
@@ -42,10 +42,10 @@ namespace AdventureGame
             Game.Dialog(
                 "Fred sit next to you with his fish and peanut butter sandwich and Ed sits at the head of the table with his cornflower blue tie. You hate that tie.",
                 "white");
-            Console.WriteLine(""); // create whitespace
+            Console.WriteLine("");
 
             UserDecision2();
-            while (Player.LevelOneCompleted == false)
+            while (!Player.LevelOneCompleted)
             {
                 LevelOneConversationOptions();
                 var DialogResponse = Console.ReadLine();
@@ -59,7 +59,6 @@ namespace AdventureGame
             Game.Dialog("Press any key to continue", "white");
             Console.ReadKey();
         }
-
 
         public static void UserDecision1()
         {

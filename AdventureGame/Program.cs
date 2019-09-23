@@ -14,15 +14,14 @@ namespace AdventureGame
         {
             Game.StartGame();
             Game.NameCharacter();
-            Game.Dialog($"Welcome to the club, {Player.CharacterName}. To begin your adventure, click any key.",
-                "yellow");
             
+           
             LevelOne.LevelOneScenario();
             LevelTwo.LevelTwoScenario();
             LevelThree.LevelThreeScenario();
+            BossFight.BossFightScenario();
 
-
-            Console.Read(); //keep app open
+           Console.Read(); //keep app open
         }
     }
 }

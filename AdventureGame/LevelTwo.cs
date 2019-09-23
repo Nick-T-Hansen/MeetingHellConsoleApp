@@ -17,7 +17,7 @@ namespace AdventureGame
             Console.WriteLine();
 
             UserDecision1();
-            while (Player.LevelTwoCompleted == false && Player.ChoicesRemaining >= 0)
+            while (!Player.LevelTwoCompleted && Player.ChoicesRemaining >= 0)
             {
                 LevelTwoTrapOptions();
                 if (Player.LevelFailed)
